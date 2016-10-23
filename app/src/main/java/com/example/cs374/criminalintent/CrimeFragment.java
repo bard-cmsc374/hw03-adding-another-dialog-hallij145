@@ -26,6 +26,7 @@ public class CrimeFragment extends Fragment{
         super.onCreate(savedInstanceState);
         mCrime = new Crime();
     }
+
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState){
         View v = inflater.inflate(R.layout.fragment_crime, parent, false);
         mTitleField = (EditText)v.findViewById(R.id.crime_title);

@@ -21,7 +21,6 @@ public class CrimeLab {
             c.setTitle("Crime #" + i);
             c.setSolved(i%2==0);
             mCrimes.add(c);
-
         }
     }
     public static CrimeLab get(Context c) {
